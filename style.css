@@ -131,6 +131,11 @@ a {
     transition: all 300ms ease;
 }
 
+
+.nav__link:hover {
+    text-decoration: underline;
+}
+
 .nav__link--primary:hover {
     background-color: rgba(80, 17, 204);
     color: white;
@@ -863,6 +868,11 @@ TESTIMONIALS ↓
 
 */
 
+#testimonials .section {
+    padding: 0 32px;
+}
+
+
 #testimonials .container {
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -1097,6 +1107,15 @@ START / CALL TO ACTION ↓
     z-index: 2;
 }
 
+.start__button:hover:nth-child(1) {
+    background-color: rgba(229, 62,62);
+}
+
+.start__button:hover:nth-child(2) {
+    background-color: rgba(247, 250, 252);
+    color: rgba(100, 21, 255);
+}
+
 /* 
 
 FOOTER ↓
@@ -1110,6 +1129,12 @@ footer {
     margin-bottom: -32px;
     position: relative;
     overflow: hidden;
+}
+
+.footer__row {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .footer__blob--1 {
@@ -1167,6 +1192,22 @@ footer {
     font-weight: 500;
     position: relative;
     cursor: pointer;
+}
+
+.footer__column--link:hover {
+    text-decoration: underline;
+}
+
+.footer__column--link:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    height: 2px;
+    width: 100%;
+    background: #fff;
+    transition: all 300ms ease;
+    opacity: 0;
 }
 
 .footer__divider {
