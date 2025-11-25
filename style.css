@@ -1353,6 +1353,15 @@ MOBILE RESPONSIVENESS ↓
         text-align: left;
     }
 
+    #steps .section__tag {
+        margin: 2.5rem;
+        text-align: center;
+    }
+
+    .steps__list {
+        text-align: center;
+    } 
+
     #quality .row,
     #values .row {
         flex-direction: column-reverse;
