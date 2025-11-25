@@ -1362,6 +1362,13 @@ MOBILE RESPONSIVENESS ↓
         text-align: center;
     } 
 
+    .step {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 2rem;
+    }
+
     #quality .row,
     #values .row {
         flex-direction: column-reverse;
@@ -1428,5 +1435,17 @@ MOBILE RESPONSIVENESS ↓
     main {
         margin-bottom: 5rem;
     }
-}
 
+    #steps .section__tag {
+        margin: 2.5rem;
+        text-align: center;
+    }
+
+    .step {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 2rem;
+    }
+
+}
