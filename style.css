@@ -1848,3 +1848,15 @@ MOBILE RESPONSIVENESS ↓
         margin-left: 0px;
     }
 }
+
+@media(max-width: 500px) {
+
+    .values__btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 130px;
+    }
+
+}
