@@ -193,6 +193,11 @@ a {
     right: 1.125rem;
 }
 
+.menu {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(100%);
+}
 
 /* 
 
@@ -1390,7 +1395,6 @@ MOBILE RESPONSIVENESS ↓
 
     .btn__menu {
         background: transparent;
-        display: none;
         border: none;
         transition: all 300ms ease;
     }
